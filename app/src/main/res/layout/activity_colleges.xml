@@ -17,19 +17,21 @@
         style="@style/button1"
         android:id="@+id/bc2"
         android:text="KAIM"
-        app:layout_constraintTop_toBottomOf="@+id/bc1"/>
+        app:layout_constraintLeft_toRightOf="@+id/bc1"/>
 
     <Button
         style="@style/button1"
         android:id="@+id/bc3"
         android:text="APEEJAY SARASWATI GIRLS COLLEGE"
-        app:layout_constraintTop_toBottomOf="@+id/bc2"/>
+        app:layout_constraintTop_toBottomOf="@+id/bc2"
+        />
 
     <Button
         style="@style/button1"
         android:id="@+id/bc4"
         android:text="M.L.R.S. COLLEGE"
-        app:layout_constraintTop_toBottomOf="@+id/bc3"/>
+        app:layout_constraintLeft_toRightOf="@+id/bc3"
+        app:layout_constraintTop_toBottomOf="@+id/bc2"/>
 
     <Button
         style="@style/button1"

@@ -15,6 +15,6 @@
         style="@style/button1"
         android:text="Bus Stand"
         android:id="@+id/btn9"
-        app:layout_constraintTop_toBottomOf="@+id/btn8"/>
+        app:layout_constraintLeft_toRightOf="@+id/btn8"/>
 
 </android.support.constraint.ConstraintLayout>

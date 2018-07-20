@@ -19,7 +19,8 @@
 
         android:id="@+id/bel2"
         android:text="COMPUTERS"
-        app:layout_constraintTop_toBottomOf="@+id/bel1"
+        app:layout_constraintLeft_toRightOf="@+id/bel1"
+
 
         />
 
