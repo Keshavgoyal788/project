@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_foreground"
+    tools:context=".Main3Activity"
+    android:padding="30dp">
+    <Button
+        style="@style/button1"
+        android:text="Sweet shops"
+        android:id="@+id/b11"
+        android:background="@drawable/button"/>
+    <Button
+        style="@style/button1"
+        android:text="Mobile Shops"
+        android:id="@+id/b12"
+        android:background="@drawable/button"
+        app:layout_constraintTop_toBottomOf="@+id/b11"/>
+    <Button
+        style="@style/button1"
+        android:text="Food Corner"
+        android:id="@+id/b13"
+        android:background="@drawable/button"
+        app:layout_constraintTop_toBottomOf="@+id/b12"/>
+    <Button
+        style="@style/button1"
+        android:text="Parks"
+        android:id="@+id/b14"
+        android:background="@drawable/button"
+        app:layout_constraintTop_toBottomOf="@+id/b13"/>
+
+</android.support.constraint.ConstraintLayout>

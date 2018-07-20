@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hotels"
+    android:padding="20dp">
+
+    <Button
+        style="@style/button1"
+
+        android:text="TUSHAR HOTEL"
+        android:id="@+id/bh1"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:text="BLUE DIAMOND"
+        android:id="@+id/bh2"
+
+        app:layout_constraintTop_toBottomOf="@+id/bh1"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:text="HOTEL MEJBAN"
+        android:id="@+id/bh3"
+
+        app:layout_constraintTop_toBottomOf="@+id/bh2"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:text="DAAVAT"
+        android:id="@+id/bh4"
+
+        app:layout_constraintTop_toBottomOf="@+id/bh3"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+
+        android:text="GR CELEBRATION"
+        android:id="@+id/bh5"
+
+        app:layout_constraintTop_toBottomOf="@+id/bh4"
+
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

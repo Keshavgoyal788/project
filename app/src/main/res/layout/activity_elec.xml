@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elec"
+    android:padding="20dp">
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bel1"
+        android:text="MOBILE"
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bel2"
+        android:text="COMPUTERS"
+        app:layout_constraintTop_toBottomOf="@+id/bel1"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bel3"
+        android:text="ELECTRONICS"
+        app:layout_constraintTop_toBottomOf="@+id/bel2"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

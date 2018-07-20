@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schls"
+    android:padding="20dp"
+    >
+
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bs1"
+        android:text="D.R.K.ADARSH VIDYA MANDIR"
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs2"
+        android:text="J.D.K.D.E.S"
+        app:layout_constraintTop_toBottomOf="@+id/bs1"
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs3"
+        android:text="VAISH SENIOR SECONDARY SCHOOLS "
+        app:layout_constraintTop_toBottomOf="@+id/bs2"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs4"
+        android:text="VAISH GIRLS SENIOR SECONDARY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs3"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs5"
+        android:text="APEEJAY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs4"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs6"
+        android:text="R.E.D. SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs5"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs7"
+        android:text="GOVERNMENT SENIOR SECONDARY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs6"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs8"
+        android:text="GOVERNMENT GIRLS SENIOR SECONDARY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs7"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs9"
+        android:text="K.N. SENIOR SECONDARY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs8"
+
+        />
+
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs10"
+        android:text="BASE MODEL SENIOR SECONDARY SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs9"
+
+        />
+
+    <Button
+        style="@style/button1"
+
+        android:id="@+id/bs11"
+        android:text="GEETA NIKETAN SCHOOL"
+        app:layout_constraintTop_toBottomOf="@+id/bs10"
+
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Colleges"
+    android:padding="20dp">
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bc1"
+        android:text="J.V.M.V.R.R."/>
+
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bc2"
+        android:text="KAIM"
+        app:layout_constraintTop_toBottomOf="@+id/bc1"/>
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bc3"
+        android:text="APEEJAY SARASWATI GIRLS COLLEGE"
+        app:layout_constraintTop_toBottomOf="@+id/bc2"/>
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bc4"
+        android:text="M.L.R.S. COLLEGE"
+        app:layout_constraintTop_toBottomOf="@+id/bc3"/>
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/bc5"
+        android:text="MLR MEDICAL COLLEGE"
+        app:layout_constraintTop_toBottomOf="@+id/bc4"/>
+
+</android.support.constraint.ConstraintLayout>

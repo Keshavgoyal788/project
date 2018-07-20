@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edu"
+    android:padding="20dp">
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/be1"
+        android:text="SCHOOLS"
+        />
+
+    <Button
+        style="@style/button1"
+        android:id="@+id/be2"
+        android:text="COLLEGES"
+               app:layout_constraintTop_toBottomOf="@+id/be1"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
